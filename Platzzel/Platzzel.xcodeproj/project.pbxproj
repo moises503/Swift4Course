@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80B695F12045B57F0015F8AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B695F02045B57F0015F8AA /* AppDelegate.swift */; };
+		80B695F32045B57F0015F8AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B695F22045B57F0015F8AA /* ViewController.swift */; };
+		80B695F62045B57F0015F8AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B695F42045B57F0015F8AA /* Main.storyboard */; };
+		80B695F82045B57F0015F8AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B695F72045B57F0015F8AA /* Assets.xcassets */; };
+		80B695FB2045B57F0015F8AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B695F92045B57F0015F8AA /* LaunchScreen.storyboard */; };
+		80B696062045B57F0015F8AA /* PlatzzelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B696052045B57F0015F8AA /* PlatzzelTests.swift */; };
+		80B696112045B57F0015F8AA /* PlatzzelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B696102045B57F0015F8AA /* PlatzzelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80B696022045B57F0015F8AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B695E52045B57E0015F8AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B695EC2045B57E0015F8AA;
+			remoteInfo = Platzzel;
+		};
+		80B6960D2045B57F0015F8AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B695E52045B57E0015F8AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B695EC2045B57E0015F8AA;
+			remoteInfo = Platzzel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80B695ED2045B57E0015F8AA /* Platzzel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platzzel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B695F02045B57F0015F8AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80B695F22045B57F0015F8AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80B695F52045B57F0015F8AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80B695F72045B57F0015F8AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80B695FA2045B57F0015F8AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80B695FC2045B57F0015F8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B696012045B57F0015F8AA /* PlatzzelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatzzelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B696052045B57F0015F8AA /* PlatzzelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatzzelTests.swift; sourceTree = "<group>"; };
+		80B696072045B57F0015F8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B6960C2045B57F0015F8AA /* PlatzzelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatzzelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B696102045B57F0015F8AA /* PlatzzelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatzzelUITests.swift; sourceTree = "<group>"; };
+		80B696122045B57F0015F8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B695EA2045B57E0015F8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B695FE2045B57F0015F8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B696092045B57F0015F8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80B695E42045B57E0015F8AA = {
+			isa = PBXGroup;
+			children = (
+				80B695EF2045B57E0015F8AA /* Platzzel */,
+				80B696042045B57F0015F8AA /* PlatzzelTests */,
+				80B6960F2045B57F0015F8AA /* PlatzzelUITests */,
+				80B695EE2045B57E0015F8AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80B695EE2045B57E0015F8AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B695ED2045B57E0015F8AA /* Platzzel.app */,
+				80B696012045B57F0015F8AA /* PlatzzelTests.xctest */,
+				80B6960C2045B57F0015F8AA /* PlatzzelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B695EF2045B57E0015F8AA /* Platzzel */ = {
+			isa = PBXGroup;
+			children = (
+				80B695F02045B57F0015F8AA /* AppDelegate.swift */,
+				80B695F22045B57F0015F8AA /* ViewController.swift */,
+				80B695F42045B57F0015F8AA /* Main.storyboard */,
+				80B695F72045B57F0015F8AA /* Assets.xcassets */,
+				80B695F92045B57F0015F8AA /* LaunchScreen.storyboard */,
+				80B695FC2045B57F0015F8AA /* Info.plist */,
+			);
+			path = Platzzel;
+			sourceTree = "<group>";
+		};
+		80B696042045B57F0015F8AA /* PlatzzelTests */ = {
+			isa = PBXGroup;
+			children = (
+				80B696052045B57F0015F8AA /* PlatzzelTests.swift */,
+				80B696072045B57F0015F8AA /* Info.plist */,
+			);
+			path = PlatzzelTests;
+			sourceTree = "<group>";
+		};
+		80B6960F2045B57F0015F8AA /* PlatzzelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80B696102045B57F0015F8AA /* PlatzzelUITests.swift */,
+				80B696122045B57F0015F8AA /* Info.plist */,
+			);
+			path = PlatzzelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B695EC2045B57E0015F8AA /* Platzzel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B696152045B57F0015F8AA /* Build configuration list for PBXNativeTarget "Platzzel" */;
+			buildPhases = (
+				80B695E92045B57E0015F8AA /* Sources */,
+				80B695EA2045B57E0015F8AA /* Frameworks */,
+				80B695EB2045B57E0015F8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Platzzel;
+			productName = Platzzel;
+			productReference = 80B695ED2045B57E0015F8AA /* Platzzel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80B696002045B57F0015F8AA /* PlatzzelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B696182045B57F0015F8AA /* Build configuration list for PBXNativeTarget "PlatzzelTests" */;
+			buildPhases = (
+				80B695FD2045B57F0015F8AA /* Sources */,
+				80B695FE2045B57F0015F8AA /* Frameworks */,
+				80B695FF2045B57F0015F8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B696032045B57F0015F8AA /* PBXTargetDependency */,
+			);
+			name = PlatzzelTests;
+			productName = PlatzzelTests;
+			productReference = 80B696012045B57F0015F8AA /* PlatzzelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80B6960B2045B57F0015F8AA /* PlatzzelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B6961B2045B57F0015F8AA /* Build configuration list for PBXNativeTarget "PlatzzelUITests" */;
+			buildPhases = (
+				80B696082045B57F0015F8AA /* Sources */,
+				80B696092045B57F0015F8AA /* Frameworks */,
+				80B6960A2045B57F0015F8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B6960E2045B57F0015F8AA /* PBXTargetDependency */,
+			);
+			name = PlatzzelUITests;
+			productName = PlatzzelUITests;
+			productReference = 80B6960C2045B57F0015F8AA /* PlatzzelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B695E52045B57E0015F8AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Moises;
+				TargetAttributes = {
+					80B695EC2045B57E0015F8AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					80B696002045B57F0015F8AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80B695EC2045B57E0015F8AA;
+					};
+					80B6960B2045B57F0015F8AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80B695EC2045B57E0015F8AA;
+					};
+				};
+			};
+			buildConfigurationList = 80B695E82045B57E0015F8AA /* Build configuration list for PBXProject "Platzzel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80B695E42045B57E0015F8AA;
+			productRefGroup = 80B695EE2045B57E0015F8AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B695EC2045B57E0015F8AA /* Platzzel */,
+				80B696002045B57F0015F8AA /* PlatzzelTests */,
+				80B6960B2045B57F0015F8AA /* PlatzzelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B695EB2045B57E0015F8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B695FB2045B57F0015F8AA /* LaunchScreen.storyboard in Resources */,
+				80B695F82045B57F0015F8AA /* Assets.xcassets in Resources */,
+				80B695F62045B57F0015F8AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B695FF2045B57F0015F8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B6960A2045B57F0015F8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B695E92045B57E0015F8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B695F32045B57F0015F8AA /* ViewController.swift in Sources */,
+				80B695F12045B57F0015F8AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B695FD2045B57F0015F8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B696062045B57F0015F8AA /* PlatzzelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B696082045B57F0015F8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B696112045B57F0015F8AA /* PlatzzelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80B696032045B57F0015F8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B695EC2045B57E0015F8AA /* Platzzel */;
+			targetProxy = 80B696022045B57F0015F8AA /* PBXContainerItemProxy */;
+		};
+		80B6960E2045B57F0015F8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B695EC2045B57E0015F8AA /* Platzzel */;
+			targetProxy = 80B6960D2045B57F0015F8AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80B695F42045B57F0015F8AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B695F52045B57F0015F8AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80B695F92045B57F0015F8AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B695FA2045B57F0015F8AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B696132045B57F0015F8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80B696142045B57F0015F8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B696162045B57F0015F8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Platzzel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moises.platzzel.Platzzel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80B696172045B57F0015F8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Platzzel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moises.platzzel.Platzzel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80B696192045B57F0015F8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatzzelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moises.platzzel.PlatzzelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Platzzel.app/Platzzel";
+			};
+			name = Debug;
+		};
+		80B6961A2045B57F0015F8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatzzelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moises.platzzel.PlatzzelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Platzzel.app/Platzzel";
+			};
+			name = Release;
+		};
+		80B6961C2045B57F0015F8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatzzelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moises.platzzel.PlatzzelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Platzzel;
+			};
+			name = Debug;
+		};
+		80B6961D2045B57F0015F8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatzzelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moises.platzzel.PlatzzelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Platzzel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B695E82045B57E0015F8AA /* Build configuration list for PBXProject "Platzzel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B696132045B57F0015F8AA /* Debug */,
+				80B696142045B57F0015F8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B696152045B57F0015F8AA /* Build configuration list for PBXNativeTarget "Platzzel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B696162045B57F0015F8AA /* Debug */,
+				80B696172045B57F0015F8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B696182045B57F0015F8AA /* Build configuration list for PBXNativeTarget "PlatzzelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B696192045B57F0015F8AA /* Debug */,
+				80B6961A2045B57F0015F8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B6961B2045B57F0015F8AA /* Build configuration list for PBXNativeTarget "PlatzzelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B6961C2045B57F0015F8AA /* Debug */,
+				80B6961D2045B57F0015F8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80B695E52045B57E0015F8AA /* Project object */;
+}
